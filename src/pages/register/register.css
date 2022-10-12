@@ -1,0 +1,70 @@
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: black;
+    align-items: center; }
+.form-box{
+    display: flex;
+    justify-content: center;
+    background-color: #065c71;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3%;
+    box-shadow: 5px 10px #04333e;
+    padding: 20px;
+}
+#Logo-text{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0263ef;
+    /* Animation */
+    display: inline-block;
+  
+    /* animation: bounce; */
+    animation-duration: 5s;
+}
+.Register-text{
+    font-size: 15px;
+    color: grey;
+    height: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+}
+input{
+    margin: 6px;
+    padding: 10px;
+    background-color: #095162;
+    color: lightblue;
+    border: none;
+
+
+}
+.btn{
+    background-color: #0263ef;
+    border-radius: 10%;
+    padding: 8px 15px;
+    border: transparent;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    cursor: pointer;
+
+}
+.img-avatar{
+width: 18px;
+margin-top: 5px;
+}
+.add-avatar-text{
+    font-size: 10px;
+    color:grey;
+    margin-left: 5px;
+
+}
